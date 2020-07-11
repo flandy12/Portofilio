@@ -1,0 +1,750 @@
+/*pada media 576.99px*/
+@media screen and (max-width: 576.98px) {
+  body {
+    font-size: 18;
+  }
+
+  .hero-first {
+    background-image: url("/niilo-isotalo--BZc9Ee1qo0-unsplash.jpg");
+    background-size: cover;
+  }
+
+  .hero-first-text .judul-1 {
+    padding: 10% 0 0 0;
+    color: white;
+    text-align: center;
+    font-style: 12px;
+  }
+
+  .text-about-first {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .btn-all {
+    margin-top: 4%;
+    padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-fist-btn-1 {
+    background-color: #028090;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+  }
+
+  .hero-fist-btn-2 {
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    padding: 8px 20px;
+  }
+
+  .HERO-TWO-ALL {
+    color: white;
+    padding: 2% 0%;
+    background-color: #114B5F;
+    text-align: center;
+  }
+
+  .HERO-THREE-ALL {
+    padding: 50px 0px;
+  }
+
+  .img-three img {
+    overflow: hidden;
+  }
+
+  .hero-four-all .judul-all {
+    margin: auto;
+    text-align: center;
+  }
+
+  .hero-four-cons {
+    justify-content: center;
+    display: flex;
+  }
+
+  .hero-four-cons .cons-list.activee {
+    background-color: coral;
+  }
+
+  .cons-list {
+    cursor: pointer;
+    padding: 6px 25px;
+    list-style: none;
+    border: 0.5px solid #F45B69;
+  }
+
+  .cons-list:hover {
+    color: white;
+    background-color: #F45B69;
+  }
+
+  .HERO_FOUR_ALL {
+    text-align: justify;
+    padding: 5% 0%;
+    color: rgba(34, 33, 33, 0.884);
+    background-color: #114B5F;
+  }
+
+  .HERO_FOUR_ALL .card-item {
+    background-color: transparent;
+    border: 2px solid rgb(221, 226, 226);
+    color: white;
+  }
+
+  .HERO-FIVE-ALL {
+    text-align: center;
+    padding: 3% 3%;
+    color: rgb(44, 42, 42);
+  }
+
+  .HERO-FIVE-Judul {
+    margin: auto;
+    width: 600px;
+  }
+
+  .HERO-FIVE-cons {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .cons-list {
+    cursor: pointer;
+    padding: 10px 100px;
+    list-style: none;
+    border: 0.5px solid coral;
+  }
+
+  .cons-list:hover {
+    background-color: coral;
+  }
+
+  footer {
+    padding: 5% 0;
+    color: rgba(245, 245, 220, 0.473);
+    background-color: black;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer .submit-place {
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    background-color: #028090;
+  }
+
+  footer #bahasa {
+    padding: 5px 20px;
+  }
+}
+
+@media (min-width: 576px){
+  body {
+    font-size: 12px;
+  }
+
+  .hero-first {
+    background-image: url("/niilo-isotalo--BZc9Ee1qo0-unsplash.jpg");
+    background-size: cover;
+  }
+
+  .hero-first-text .judul-1 {
+    padding: 30% 0 0 0;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: 18px;
+  }
+
+  .text-about-first {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .btn-all {
+    margin-top: 8%;
+    padding-bottom: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-fist-btn-1 {
+    background-color: rgb(99, 198, 231);
+    color: white;
+    border: none;
+    padding: 10px 50px;
+  }
+
+  .hero-fist-btn-2 {
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    padding: 10px 50px;
+  }
+
+  .HERO-TWO-ALL {
+    padding: 3% 0%;
+    color: white;
+    background-color: rgb(99, 198, 231);
+    text-align: center;
+  }
+
+  .HERO-THREE-ALL {
+    padding: 50px 0px;
+  }
+
+  .HERO-THREE-ALL .text-hero-three {
+    height: 230px;
+    overflow: scroll;
+  }
+
+  .text-hero-three {
+    height: 100%;
+    overflow: visible;
+  }
+
+  .hero-four-all .judul-all {
+    margin: auto;
+    text-align: center;
+  }
+
+  .hero-four-cons {
+    justify-content: center;
+    display: flex;
+  }
+
+  .HERO_FOUR_ALL {
+    text-align: justify;
+    padding: 5% 0%;
+    color: rgba(34, 33, 33, 0.884);
+    background-color: rgb(9, 13, 70);
+  }
+
+  .HERO_FOUR_ALL .card-item {
+    background-color: transparent;
+    border: 2px solid rgb(124, 128, 128);
+    color: white;
+  }
+
+  .HERO_FOUR_ALL .card-body {
+    color: black;
+    background-color: white;
+  }
+
+  .HERO-FIVE-ALL {
+    text-align: center;
+    padding: 5% 3%;
+    color: rgb(44, 42, 42);
+  }
+
+  .HERO-FIVE-Judul {
+    margin: auto;
+    width: auto;
+  }
+
+  .HERO-FIVE-cons {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .cons-list {
+    cursor: pointer;
+    padding: 10px 50px;
+    list-style: none;
+    border: 0.5px solid coral;
+  }
+
+  .cons-list:hover {
+    background-color: coral;
+  }
+
+  footer {
+    padding: 5% 0%;
+    color: rgba(245, 245, 220, 0.473);
+    background-color: black;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer .submit-place {
+    overflow: hidden;
+    margin: 3% 0 0 0;
+    color: white;
+    padding: 7px 39px;
+    border: none;
+    background-color: #028090;
+  }
+
+  footer #bahasa {
+    padding: 7px 20px;
+  }
+}
+/*pada media 768px*/
+@media (min-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  .hero-first {
+    background-image: url("/niilo-isotalo--BZc9Ee1qo0-unsplash.jpg");
+    background-size: cover;
+  }
+
+  .hero-first-text .judul-1 {
+    padding: 30% 0 0 0;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: 18px;
+  }
+
+  .text-about-first {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .btn-all {
+    margin-top: 8%;
+    padding-bottom: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-fist-btn-1 {
+    background-color: rgb(99, 198, 231);
+    color: white;
+    border: none;
+    padding: 10px 50px;
+  }
+
+  .hero-fist-btn-2 {
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    padding: 10px 50px;
+  }
+
+  .HERO-TWO-ALL {
+    padding: 3% 0%;
+    color: white;
+    background-color: rgb(99, 198, 231);
+    text-align: center;
+  }
+
+  .HERO-THREE-ALL {
+    padding: 50px 0px;
+  }
+
+  .HERO-THREE-ALL .text-hero-three {
+    height: 230px;
+    overflow: scroll;
+  }
+
+  .text-hero-three {
+    height: 100%;
+    overflow: visible;
+  }
+
+  .hero-four-all .judul-all {
+    margin: auto;
+    text-align: center;
+  }
+
+  .hero-four-cons {
+    justify-content: center;
+    display: flex;
+  }
+
+  .HERO_FOUR_ALL {
+    text-align: justify;
+    padding: 5% 0%;
+    color: rgba(34, 33, 33, 0.884);
+    background-color: rgb(9, 13, 70);
+  }
+
+  .HERO_FOUR_ALL .card-item {
+    background-color: transparent;
+    border: 2px solid rgb(124, 128, 128);
+    color: white;
+  }
+
+  .HERO_FOUR_ALL .card-body {
+    color: black;
+    background-color: white;
+  }
+
+  .HERO-FIVE-ALL {
+    text-align: center;
+    padding: 5% 3%;
+    color: rgb(44, 42, 42);
+  }
+
+  .HERO-FIVE-Judul {
+    margin: auto;
+    width: auto;
+  }
+
+  .HERO-FIVE-cons {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .cons-list {
+    cursor: pointer;
+    padding: 10px 70px;
+    list-style: none;
+    border: 0.5px solid coral;
+  }
+
+  .cons-list:hover {
+    background-color: coral;
+  }
+
+  footer {
+    padding: 5% 0%;
+    color: rgba(245, 245, 220, 0.473);
+    background-color: black;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer .submit-place {
+    margin: 3% 0 0 0;
+    color: white;
+    width: auto;
+    padding: 7px 32px;
+    border: none;
+    background-color: #028090;
+  }
+
+  footer #bahasa {
+    padding: 7px 10px;
+  }
+}
+/*pada media 992px*/
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+
+  .hero-first {
+    background-image: url("/niilo-isotalo--BZc9Ee1qo0-unsplash.jpg");
+    background-size: cover;
+  }
+
+  .hero-first-text .judul-1 {
+    padding: 30% 0 0 0;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-style: 20px;
+  }
+
+  .text-about-first {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .btn-all {
+    margin-top: 8%;
+    padding-bottom: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-fist-btn-1 {
+    background-color: rgb(99, 198, 231);
+    color: white;
+    border: none;
+    padding: 10px 80px;
+  }
+
+  .hero-fist-btn-2 {
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    padding: 10px 80px;
+  }
+
+  .HERO-TWO-ALL {
+    padding: 3% 0%;
+    color: white;
+    background-color: rgb(99, 198, 231);
+    text-align: center;
+  }
+
+  .HERO-THREE-ALL {
+    padding: 50px 0px;
+  }
+
+  .HERO-THREE-ALL .text-hero-three {
+    height: 300px;
+    overflow: scroll;
+  }
+
+  .text-hero-three {
+    height: 100%;
+    overflow: visible;
+  }
+
+  .hero-four-all .judul-all {
+    margin: auto;
+    text-align: center;
+  }
+
+  .hero-four-cons {
+    justify-content: center;
+    display: flex;
+  }
+
+  .HERO_FOUR_ALL {
+    text-align: justify;
+    padding: 5% 0%;
+    color: rgba(34, 33, 33, 0.884);
+    background-color: rgb(9, 13, 70);
+  }
+
+  .HERO_FOUR_ALL .card-item {
+    background-color: transparent;
+    border: 2px solid rgb(124, 128, 128);
+    color: white;
+  }
+
+  .HERO_FOUR_ALL .card-body {
+    color: black;
+    background-color: white;
+  }
+
+  .HERO-FIVE-ALL {
+    text-align: center;
+    padding: 5% 3%;
+    color: rgb(44, 42, 42);
+  }
+
+  .HERO-FIVE-Judul {
+    margin: auto;
+    width: auto;
+  }
+
+  .HERO-FIVE-cons {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .cons-list {
+    cursor: pointer;
+    padding: 10px 80px;
+    list-style: none;
+    border: 0.5px solid coral;
+  }
+
+  .cons-list:hover {
+    background-color: coral;
+  }
+
+  footer {
+    padding: 5% 0%;
+    color: rgba(245, 245, 220, 0.473);
+    background-color: black;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer .submit-place {
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    background-color: #028090;
+  }
+
+  footer #bahasa {
+    padding: 7px 3px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+
+  .hero-first {
+    background-image: url("/niilo-isotalo--BZc9Ee1qo0-unsplash.jpg");
+    background-size: cover;
+  }
+
+  .hero-first-text .judul-1 {
+    padding: 20% 0 0 0;
+    color: white;
+    text-align: center;
+    font-style: 15px;
+  }
+
+  .text-about-first {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .btn-all {
+    margin-top: 4%;
+    padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-fist-btn-1 {
+    background-color: #6abec9;
+    color: white;
+    border: none;
+    padding: 15px 80px;
+  }
+
+  .hero-fist-btn-2 {
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    padding: 15px 80px;
+  }
+
+  .HERO-TWO-ALL {
+    color: white;
+    padding: 2% 0%;
+    width: auto;
+    background-color: #6abec9;
+    text-align: center;
+  }
+
+  .HERO-THREE-ALL {
+    padding: 50px 0px;
+  }
+
+  .HERO-THREE-ALL .text-hero-three {
+    overflow: visible;
+  }
+
+  .HERO_FOUR_ALL {
+    text-align: justify;
+    padding: 5% 0%;
+    color: rgba(34, 33, 33, 0.884);
+    background-color: rgb(5, 4, 29);
+  }
+
+  .HERO_FOUR_ALL .card-body {
+    color: black;
+    background-color: whgitite;
+  }
+
+  .HERO_FOUR_ALL .card-item {
+    background-color: transparent;
+    border: 2px solid rgb(221, 226, 226);
+    color: white;
+  }
+
+  .HERO-FIVE-ALL {
+    text-align: center;
+    padding: 3% 3%;
+    color: rgb(44, 42, 42);
+  }
+
+  .HERO-FIVE-Judul {
+    margin: auto;
+  }
+
+  .HERO-FIVE-cons {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .HERO-FIVE-cons .activee {
+    cursor: pointer;
+    padding: 10px 100px;
+    list-style: none;
+    background-color: #6abec9;
+  }
+
+  .cons-list {
+    cursor: pointer;
+    padding: 10px 100px;
+    list-style: none;
+    border: 0.5px solid #6abec9;
+  }
+
+  .cons-list:hover {
+    color: white;
+    background-color: #6abec9;
+  }
+
+  footer {
+    padding: 5% 0;
+    color: rgba(245, 245, 220, 0.473);
+    background-color: black;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer .submit-place {
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    background-color: #028090;
+  }
+
+  footer #bahasa {
+    padding: 5px 20px;
+  }
+}
