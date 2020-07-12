@@ -615,7 +615,7 @@
   }
 
   .hero-first {
-    background-image: url("/niilo-isotalo--BZc9Ee1qo0-unsplash.jpg");
+    background-image: url("3d6fb30c7de5b6bb1a1c768d3f6b069d.jpg");
     background-size: cover;
   }
 
@@ -640,14 +640,14 @@
   }
 
   .hero-fist-btn-1 {
-    background-color: #6abec9;
+    background-color: #2200e6;
     color: white;
     border: none;
     padding: 15px 80px;
   }
 
   .hero-fist-btn-2 {
-    margin-left: 10px;
+    margin-left: 30px;
     background-color: white;
     border: none;
     padding: 15px 80px;
@@ -657,7 +657,7 @@
     color: white;
     padding: 2% 0%;
     width: auto;
-    background-color: #6abec9;
+    background-color: #2200e6;
     text-align: center;
   }
 
@@ -673,7 +673,7 @@
     text-align: justify;
     padding: 5% 0%;
     color: rgba(34, 33, 33, 0.884);
-    background-color: rgb(5, 4, 29);
+    background-color: #2200e6;
   }
 
   .HERO_FOUR_ALL .card-body {
@@ -683,7 +683,7 @@
 
   .HERO_FOUR_ALL .card-item {
     background-color: transparent;
-    border: 2px solid rgb(221, 226, 226);
+    border: 1px solid rgb(221, 226, 226);
     color: white;
   }
 
@@ -707,19 +707,20 @@
     cursor: pointer;
     padding: 10px 100px;
     list-style: none;
-    background-color: #6abec9;
+    color: white;
+    background-color: #2200e6;
   }
 
   .cons-list {
     cursor: pointer;
     padding: 10px 100px;
     list-style: none;
-    border: 0.5px solid #6abec9;
+    border: 0.5px solid #2200e6;
   }
 
   .cons-list:hover {
     color: white;
-    background-color: #6abec9;
+    background-color: #2200e6;
   }
 
   footer {
@@ -741,7 +742,7 @@
     color: white;
     padding: 7px 20px;
     border: none;
-    background-color: #028090;
+    background-color: #2200e6;
   }
 
   footer #bahasa {
