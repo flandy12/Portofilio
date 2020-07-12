@@ -615,7 +615,7 @@
   }
 
   .hero-first {
-    background-image: url("3d6fb30c7de5b6bb1a1c768d3f6b069d.jpg");
+    background-image: url("s95DnBWUe-8_Full.jpg");
     background-size: cover;
   }
 
@@ -662,7 +662,7 @@
   }
 
   .HERO-THREE-ALL {
-    padding: 50px 0px;
+    padding: 100px 0px;
   }
 
   .HERO-THREE-ALL .text-hero-three {
@@ -725,6 +725,7 @@
   .HERO-SIX{
     color: white;
     padding: 50px 0 0 0;
+    background-size: cover;
     background-image: url('/jonatan-pie-3l3RwQdHRHg-unsplash.jpg');
   }
   .HERO-SIX .pagination{
