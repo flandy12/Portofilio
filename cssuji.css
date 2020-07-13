@@ -660,11 +660,15 @@
     background-color: #2200e6;
     text-align: center;
   }
-
+  #garis {
+    border: 1px solid rgb(255, 255, 255);
+  }
   .HERO-THREE-ALL {
     padding: 100px 0px;
   }
-
+  #img-three{
+    box-shadow: 0px 0px 5px 0px black;
+  }
   .HERO-THREE-ALL .text-hero-three {
     overflow: visible;
   }
@@ -753,7 +757,7 @@
     width: 200px;
   }
   .btn-seven{
-    background-color: rgb(188, 190, 190);
+    background-color: rgb(22, 170, 170);
     color: rgb(255, 255, 255);
     border: none;
     padding: 10px 40px;
