@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    color: rgb(201, 198, 198);
+}
+.hero-all{
+   background-size: cover;
+   padding: 60px 0;
+    background-image: url("jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+}
+.form_Login{
+    background-image: linear-gradient(rgb(106, 5, 221),rgb(47, 44, 238));
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5% 4%;
+    margin: auto;
+    width: 500px;
+}
