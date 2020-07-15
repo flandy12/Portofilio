@@ -152,7 +152,7 @@
   }
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
   body {
     font-size: 12px;
   }
@@ -305,6 +305,7 @@
     padding: 7px 20px;
   }
 }
+
 /*pada media 768px*/
 @media (min-width: 768px) {
   body {
@@ -459,6 +460,7 @@
     padding: 7px 10px;
   }
 }
+
 /*pada media 992px*/
 @media (min-width: 992px) {
   body {
@@ -614,6 +616,28 @@
     font-size: 18px;
   }
 
+  .all-login .login {
+    background-color: rgb(248, 248, 248);
+    padding: 8px 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+  }
+
+  .all-login .Register {
+    padding: 8px 60px;
+    border-radius: 5px;
+    background-color: #6f00ff;
+    color: white;
+    text-decoration: none;
+  }
+
+  .all-login .item {
+    text-decoration: none;
+    display: inline-flex;
+  }
+
   .hero-first {
     background-image: url("s95DnBWUe-8_Full.jpg");
     background-size: cover;
@@ -622,35 +646,36 @@
   .hero-first-text .judul-1 {
     padding: 20% 0 0 0;
     color: white;
-    text-align: center;
-    font-style: 15px;
+    text-align: left;
+    font-size: 40px;
   }
 
-  .text-about-first {
-    text-align: center;
+  .hero-first-text .text-about-first {
+    text-align: left;
+    width: auto;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .btn-all {
     margin-top: 4%;
     padding-bottom: 20%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   .hero-fist-btn-1 {
     background-color: #2200e6;
     color: white;
-    border: none;
-    padding: 15px 80px;
+    border-radius: 5px;
+    padding: 8px 30px;
   }
 
   .hero-fist-btn-2 {
     margin-left: 30px;
     background-color: white;
-    border: none;
-    padding: 15px 80px;
+    border-radius: 5px;
+    padding: 8px 30px;
   }
 
   .HERO-TWO-ALL {
@@ -660,15 +685,19 @@
     background-color: #2200e6;
     text-align: center;
   }
+
   #garis {
     border: 1px solid rgb(255, 255, 255);
   }
+
   .HERO-THREE-ALL {
     padding: 100px 0px;
   }
-  #img-three{
+
+  #img-three {
     box-shadow: 0px 0px 5px 0px black;
   }
+
   .HERO-THREE-ALL .text-hero-three {
     overflow: visible;
   }
@@ -727,34 +756,39 @@
     color: white;
     background-color: #2200e6;
   }
-  .HERO-SIX{
+
+  .HERO-SIX {
     color: white;
     padding: 50px 0 0 0;
     background-size: cover;
     background-image: url('/jonatan-pie-3l3RwQdHRHg-unsplash.jpg');
   }
-  .HERO-SIX .pagination{
+
+  .HERO-SIX .pagination {
     padding-bottom: 50px;
     margin: 20px 0 0 0;
     display: flex;
     justify-content: center;
   }
+
   .HERO-SEVEN {
     padding: 5% 0%;
     z-index: 1;
     background-color: #2200e6;
     color: white;
   }
- #img-seven{
+
+  #img-seven {
     box-shadow: 0px 0px 8px 0px black;
   }
 
-  .btn-seven{
+  .btn-seven {
     background-color: rgb(22, 170, 170);
     color: rgb(255, 255, 255);
     border: none;
     padding: 10px 40px;
   }
+
   footer {
     padding: 5% 0;
     color: rgb(255, 255, 255);
@@ -769,16 +803,18 @@
     text-decoration: none;
     color: white;
   }
-  
+
   select {
     border-radius: 5px;
     color: black;
     background-color: rgb(255, 255, 255);
   }
+
   #bahasa option {
     color: rgb(0, 0, 0);
 
   }
+
   footer .submit-place {
     color: white;
     padding: 7px 20px;
@@ -788,5 +824,21 @@
 
   footer #bahasa {
     padding: 5px 20px;
+  }
+
+  /*css untuk file signin & signup*/
+  .hero-all {
+    background-size: cover;
+    padding: 60px 0;
+    background-image: url("jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+  }
+  /*css untuk form signup*/
+  .form_Login {
+    background-image: linear-gradient(rgb(119, 0, 255), rgb(0, 26, 255), rgba(47, 44, 238, 0.384));
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5% 4%;
+    margin: auto;
+    width: 500px;
   }
 }
