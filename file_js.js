@@ -1,11 +1,14 @@
 //input login
-var signin = this.document.getElementById('signin').addEventListener('click', hallo);
-signUp = document.getElementById('signup').addEventListener('click', hallo);
-
-function hallo() {
-    window.open('http://localhost:8080/Login.html');
-};
-
+document.getElementById('signup').addEventListener('click',signup);
+document.getElementById('signin').addEventListener('click',signin);
+function signup(){
+    //negarahkan ke halaman tersebut
+    window.location.href ="http://localhost:8080/signUp.html";
+}
+function signin(){
+    //negarahkan ke halaman tersebut
+    window.location.href ="http://localhost:8080/signIn.html";
+}
 //input bahasa
 function belajar() {
     var x = document.getElementById('bahasa');
